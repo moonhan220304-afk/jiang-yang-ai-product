@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 648" role="group" aria-label="个人工作中心整体架构：你的输入带入已有积累，经工作台调用执行者，保存成果和反馈，更新方法再复用" style="font-family:Geist,'PingFang SC',sans-serif">
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#4f5d75"/></marker><marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#eb6c36"/></marker><marker id="arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#2e5aa8"/></marker></defs>
+<rect width="1040" height="648" fill="#f5f5f5"/>
+<g fill="none" stroke="#4f5d75" stroke-width="1.6" marker-end="url(#arrow)">
+<path d="M440 128V232"/><path d="M272 296H344"/><path d="M536 296H584"/><path d="M744 296H816"/>
+<path d="M912 360V448Q912 456 904 456H760Q752 456 752 464V488"/>
+</g>
+<path d="M632 544H160Q152 544 152 536V360" fill="none" stroke="#eb6c36" stroke-width="2" marker-end="url(#arrow-accent)"/>
+<g fill="#4f5d75" font-size="12"><text x="456" y="180">你说目标、提供材料</text><text x="280" y="272">选资料</text><text x="540" y="272">调用</text><text x="752" y="272">保存</text><text x="776" y="432">记录反馈与使用效果</text></g>
+<rect x="232" y="516" width="320" height="20" fill="#f5f5f5"/><text x="240" y="532" font-size="16" fill="#ba4c20">确认适用范围，再供下一次使用</text>
+<g><rect class="node-fill" x="344" y="32" width="192" height="96" rx="8" fill="#ececec" stroke="#7a8399"/><text x="368" y="72" fill="#2d3142" font-size="20" font-weight="600">你的输入</text><text x="368" y="104" fill="#4f5d75" font-size="12">想法 / 痛点 / PRD / 参考</text></g>
+<g><rect class="node-fill" x="32" y="232" width="240" height="128" rx="8" fill="#fff1e9" stroke="#eb6c36"/><text x="56" y="272" fill="#2d3142" font-size="20" font-weight="600">你的长期积累</text><text x="56" y="304" fill="#4f5d75" font-size="16">项目 · 成果 · 决策</text><text x="56" y="332" fill="#4f5d75" font-size="16">方法 · 经验 · 工作约定</text></g>
+<g><rect class="node-fill" x="344" y="232" width="192" height="128" rx="8" fill="#fff" stroke="#2d3142"/><text x="368" y="272" fill="#2d3142" font-size="20" font-weight="600">工作台</text><text x="368" y="304" fill="#4f5d75" font-size="16">带背景讨论、梳理</text><text x="368" y="332" fill="#4f5d75" font-size="12">你在这里看、说、决定</text></g>
+<g><rect class="node-fill" x="584" y="232" width="160" height="128" rx="8" fill="#eee" stroke="#7a8399" stroke-dasharray="4 4"/><text x="608" y="272" fill="#2d3142" font-size="20" font-weight="600">执行者</text><text x="608" y="304" fill="#4f5d75" font-size="12">Codex 等可替换 Agent</text><text x="608" y="332" fill="#4f5d75" font-size="12">真实接入待实现</text></g>
+<g><rect class="node-fill" x="816" y="232" width="192" height="128" rx="8" fill="#fff" stroke="#2d3142"/><text x="840" y="272" fill="#2d3142" font-size="20" font-weight="600">成果与过程</text><text x="840" y="304" fill="#4f5d75" font-size="16">版本 · 进展 · 来源</text><text x="840" y="332" fill="#4f5d75" font-size="12">无需等验收才保存</text></g>
+<g><rect class="node-fill" x="632" y="488" width="240" height="112" rx="8" fill="#fff1e9" stroke="#eb6c36"/><text x="656" y="528" fill="#2d3142" font-size="20" font-weight="600">反馈与方法更新</text><text x="656" y="560" fill="#4f5d75" font-size="16">改当前成果 → 提出改法</text><text x="656" y="584" fill="#4f5d75" font-size="12">保留旧版本，跟踪下次效果</text></g>
+<line x1="32" y1="624" x2="1008" y2="624" stroke="#bfc0c0"/><text x="32" y="644" fill="#4f5d75" font-size="12">实线：本地可体验的记录与关系　　虚线框：尚待接入的真实执行能力　　橙色回路：你的积累得到更新</text>
+</svg>

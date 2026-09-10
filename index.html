@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="江洋｜AI应用产品与Agent工作流实践作品集">
+  <title>江洋｜AI 应用产品实践</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='24' fill='%2313a88b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#view">跳到主要内容</a>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="返回首页">
+      <span class="brand-node"></span>
+      <strong>JIANG YANG</strong>
+      <small>AI APPLICATION / AGENT WORKFLOW</small>
+    </a>
+    <button class="menu-button" id="menu-button" aria-expanded="false" aria-controls="main-nav">菜单</button>
+    <nav id="main-nav" aria-label="主导航">
+      <a href="#home">首页</a>
+      <a href="#workflow">自媒体工作台</a>
+      <a href="#company">Company OS</a>
+      <a href="#honglou">红楼社</a>
+      <a href="#method">其他实践</a>
+      <a href="#experience">经历与求职</a>
+    </nav>
+    <a class="pdf-link" href="assets/resume.pdf" target="_blank">PDF 简历 ↗</a>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <footer class="page-controls">
+    <button id="prev" aria-label="上一页">←</button>
+    <span id="page-position"></span>
+    <button id="next" aria-label="下一页">→</button>
+  </footer>
+
+  <dialog id="image-dialog">
+    <button id="dialog-close" aria-label="关闭图片">关闭 ×</button>
+    <img id="dialog-image" alt="">
+    <p id="dialog-caption"></p>
+  </dialog>
+</body>
+</html>
