@@ -228,6 +228,7 @@ blockquote { max-width: 990px; margin: 38px 0 30px; color: var(--navy); font-siz
 .practice-feature p { color: var(--body); font-size: 14px; line-height: 1.8; }
 .practice-feature article > strong { display: block; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--teal); font-size: 13px; line-height: 1.7; }
 .practice-feature article blockquote { margin: 22px 0; font-size: 20px; line-height: 1.45; }
+.practice-link { display: inline-flex; margin-top: 2px; }
 .harness-feature { display: grid; grid-template-columns: minmax(260px,.75fr) minmax(0,1.25fr); gap: 46px; margin-top: 22px; padding: 34px; border-radius: 23px; }
 .harness-feature h2 { margin: 13px 0 0; font-size: 31px; }
 .harness-feature h3 { margin: 0 0 12px; font-size: 22px; line-height: 1.45; }

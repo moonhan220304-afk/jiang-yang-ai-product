@@ -118,13 +118,18 @@ function casePage(id) {
 }
 
 function methodPage() {
-  const { sayit, harness } = portfolioData.otherPractice;
+  const { sayit, radar, harness } = portfolioData.otherPractice;
   return `<section class="route-page method-page">
     <div class="page-heading glass-panel"><span class="eyebrow">OTHER AI PRACTICE</span><h1>核心案例之外，<br>我还在持续做小实验。</h1><p>每个实验都从一个具体问题开始。产品可以很小，但问题判断、失败边界和使用体验仍然要完整。</p></div>
 
     <section class="practice-feature sayit-feature">
       <article class="glass-panel"><span class="eyebrow">${sayit.label}</span><h2>${sayit.name}</h2><h3>${sayit.title}</h3><p>${sayit.body}</p><strong>${sayit.principle}</strong><blockquote>${sayit.conclusion}</blockquote></article>
       ${productShot(sayit.image, 'say it 流程架构', '语音 → 转写 → AI 整理 → 保存 → 导出；原始录音始终先保存在本地。')}
+    </section>
+
+    <section class="practice-feature radar-feature">
+      <article class="glass-panel"><span class="eyebrow">${radar.label}</span><h2>${radar.name}</h2><h3>${radar.title}</h3><p>${radar.body}</p><strong>${radar.principle}</strong><blockquote>${radar.conclusion}</blockquote><a class="case-live practice-link" href="${radar.url}" target="_blank" rel="noreferrer">进入个人作战指挥中心 ↗</a></article>
+      ${productShot(radar.image, 'DeskRadar 星系全景', '项目是 Hub，任务是卫星；在同一张图里切换全局扫描与具体推进。')}
     </section>
 
     <section class="harness-feature glass-panel">

@@ -120,6 +120,13 @@ const portfolioData = {
       principle: '原始录音先落盘，再上传和异步处理。即使网络或模型失败，最原始的信息也不会丢失。',
       conclusion: 'AI 体验首先得是可靠的软件体验，其次才是模型体验。', url: 'https://peppy-nasturtium-4ba01b.netlify.app/', image: 'assets/sayit-flow.png'
     },
+    radar: {
+      name: 'DeskRadar', label: 'PERSONAL COMMAND CENTER / INTERACTIVE', title: '宏观还是微观，成年人不做选择。说句话，任务卡片就建好了。',
+      body: '我管的不只一个账号的内容制作和运营，还有其他广告项目。事情一多，既要处理眼前的琐事，也要盯着每个子项目继续往前走，于是我想做一个自己用得顺手的任务看板。',
+      principle: '传统看板总像一排排格子。受开源项目 Project Graph 关系图的启发，我把项目做成星系、任务做成卫星：全景看项目关系，进入项目看排期，点开任务处理阶段和行动项。',
+      conclusion: '临时来了一堆事情，直接说出来，AI 先整理成任务卡片草稿，确认后再放进看板。',
+      url: 'http://127.0.0.1:5176/', image: 'assets/radar-overview.jpg'
+    },
     harness: {
       name: 'DeepSeek 模型与 Harness', label: 'DAILY TOOL / OPEN SOURCE', title: '从使用者视角理解可定制性与稳定性的取舍。',
       body: '日常通过 OpenCode 接入 DeepSeek 模型跑项目，也使用过开源 DeepSeek Harness。插件机制带来很高的 DIY 自由度，也让我直接感受到界面、能力组合和运行稳定性之间的产品取舍。',
