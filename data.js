@@ -121,7 +121,7 @@ const portfolioData = {
       conclusion: 'AI 体验首先得是可靠的软件体验，其次才是模型体验。', url: 'https://peppy-nasturtium-4ba01b.netlify.app/', image: 'assets/sayit-flow.png'
     },
     radar: {
-      name: 'DeskRadar', label: 'PERSONAL COMMAND CENTER / INTERACTIVE', title: '宏观还是微观，成年人不做选择。说句话，任务卡片就建好了。',
+      name: 'DeskRadar', label: 'PERSONAL COMMAND CENTER / INTERACTIVE', title: '宏观还是微观，成年人不做选择；通过说话建立任务卡片。',
       body: '我管的不只一个账号的内容制作和运营，还有其他广告项目。事情一多，既要处理眼前的琐事，也要盯着每个子项目继续往前走，于是我想做一个自己用得顺手的任务看板。',
       principle: '传统看板总像一排排格子。受开源项目 Project Graph 关系图的启发，我把项目做成星系、任务做成卫星：全景看项目关系，进入项目看排期，点开任务处理阶段和行动项。',
       conclusion: '临时来了一堆事情，直接说出来，AI 先整理成任务卡片草稿，确认后再放进看板。',
