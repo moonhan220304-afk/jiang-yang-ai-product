@@ -1,4 +1,4 @@
-const routes = ['home', 'workflow', 'company', 'honglou', 'method', 'experience'];
+const routes = ['home', 'workflow', 'company', 'honglou', 'method'];
 let currentRoute = 'home';
 let currentTab = 'overview';
 
@@ -21,28 +21,29 @@ function homePage() {
     <section class="route-page home-page">
       <div class="hero-stage">
         <div class="hero-panel glass-panel">
-          <span class="eyebrow">AI APPLICATION PRODUCT · AGENT WORKFLOW</span>
+          <span class="eyebrow">个人定位</span>
           <p class="role">${p.role}</p>
-          <h1>把真实问题，<br>做成能跑的<br>AI 产品。</h1>
+          <h1>vibe coding <br class="mobile-break">重度玩家，<br>个人时间探索各种应用的落地。</h1>
+          <p class="experience-dream">AI Agent，圆我一个 IT 梦。</p>
           <p class="hero-intro">${p.intro}</p>
           <div class="hero-actions">
             <a class="primary" href="#workflow">查看三个核心案例 <span>→</span></a>
-            <a class="secondary" href="#experience">了解我的经历</a>
+            <a class="secondary" href="assets/resume.pdf" target="_blank">查看 PDF 简历</a>
           </div>
           <div class="contact-line"><span>${p.name}</span><span>${p.city}</span><span>${p.phone}</span><span>${p.email}</span></div>
         </div>
-        <span class="hero-mark">7 EXPERIMENTS · 3 CORE CASES · 1 PRODUCT PATH</span>
+        <span class="hero-mark">近 7 款应用 · 3 个代表作品</span>
       </div>
 
       <div class="profile-bridge glass-panel">
-        <span class="eyebrow">HOW I DEFINE MYSELF</span>
+        <span class="eyebrow">我的判断</span>
         <h2>${p.headline}</h2>
         <p>${p.toolNote}</p>
       </div>
 
       <div class="value-heading">
-        <span class="eyebrow">WHAT I KEEP DOING</span>
-        <h2>近 7 款产品做下来，我反复在做四件事。</h2>
+        <span class="eyebrow">反复在做的事</span>
+        <h2>近 7 款产品做下来，有几件事是我反复在做的：</h2>
       </div>
       <div class="value-strip four-up">
         ${p.strengths.map(([title, body], index) => `<article><small>0${index + 1}</small><h3>${title}</h3><p>${body}</p></article>`).join('')}
@@ -128,7 +129,7 @@ function methodPage() {
     </section>
 
     <section class="practice-feature radar-feature">
-      <article class="glass-panel"><span class="eyebrow">${radar.label}</span><h2>${radar.name}</h2><h3>${radar.title}</h3><p>${radar.body}</p><strong>${radar.principle}</strong><blockquote>${radar.conclusion}</blockquote><a class="case-live practice-link" href="${radar.url}" target="_blank" rel="noreferrer">进入个人作战指挥中心 ↗</a></article>
+      <article class="glass-panel"><span class="eyebrow">${radar.label}</span><h2>${radar.name}</h2><h3>${radar.title}</h3><p>${radar.body}</p><strong>${radar.principle}</strong><blockquote>${radar.conclusion}</blockquote><a class="case-live practice-link" href="${radar.url}" target="_blank" rel="noreferrer">进入个人作战指挥中心体验 ↗</a></article>
       ${productShot(radar.image, 'DeskRadar 星系全景', '项目是 Hub，任务是卫星；在同一张图里切换全局扫描与具体推进。')}
     </section>
 
@@ -190,8 +191,7 @@ function render() {
   document.body.classList.toggle('home-route', currentRoute === 'home');
   if (currentRoute === 'home') view.innerHTML = homePage();
   else if (['workflow', 'company', 'honglou'].includes(currentRoute)) view.innerHTML = casePage(currentRoute);
-  else if (currentRoute === 'method') view.innerHTML = methodPage();
-  else view.innerHTML = experiencePage();
+  else view.innerHTML = methodPage();
 
   document.querySelectorAll('#main-nav a').forEach(anchor => anchor.toggleAttribute('aria-current', anchor.getAttribute('href') === `#${currentRoute}`));
   document.querySelector('#page-position').textContent = `${String(routes.indexOf(currentRoute) + 1).padStart(2, '0')} / ${String(routes.length).padStart(2, '0')}`;

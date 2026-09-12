@@ -2,14 +2,14 @@ const portfolioData = {
   profile: {
     name: '江洋', role: 'AI 应用产品 / Agent 工作流实践', target: 'AI 产品经理 / Agent Harness 产品方向',
     phone: '18217156153', wechat: '526455273', email: 'jiangyang1632@sina.com', city: '上海',
-    headline: '我从真实业务和用户行为出发，把模糊需求做成能跑的 AI 产品。',
-    intro: '有金融客户业务交付和复杂项目推进的经验。过去一年多持续用 vibe coding，把工作和生活里遇到的问题做成产品和工具；前后实验了近 7 款应用，其中 3 个形成了较完整的产品实践。',
-    toolNote: '日常深度使用 Codex、OpenCode 等本地 Agent，通过 OpenCode 接入 DeepSeek 模型跑项目；也持续体验 MiniMax、Kimi、智谱等国内模型与产品。',
+    headline: '相比单纯增加 AI 功能，我更擅长从具体使用场景出发，判断真正值得解决的问题是什么、什么时候做加法，什么时候做减法、用户操作逻辑和体验、用户在下一个阶段会不会有新的需求。',
+    intro: '有金融客户业务交付和复杂项目推进的经验，过去一年多持续用 vibe coding，把工作和生活里遇到的问题做成能跑的产品和工具。前前后后实验了近 7 款应用，比较有代表性的有 3 个。',
+    toolNote: '日常深度使用 Codex、OpenCode 等本地 Agent 应用，通过 OpenCode 接入 DeepSeek 模型跑项目；MiniMax、Kimi、智谱等国内厂商的产品也都用过。',
     strengths: [
       ['需求洞察与产品定义', '从实际业务和用户行为中发现问题，把模糊需求变成可执行的产品规则和流程。'],
-      ['复杂流程抽象与体验设计', '围绕核心任务重新组织信息、状态和操作路径，判断什么时候做加法，什么时候做减法。'],
-      ['AI 协作与结果验收', '把 AI 当分析、设计和实现的伙伴；怎么验收、哪些经验能沉淀，由人做最终判断。'],
-      ['Agent 工作流与经验沉淀', '管理上下文，把复盘变成可复用的 Memory 和 Skills，让下一个项目直接用得上。']
+      ['复杂流程抽象与体验设计', '不追求功能堆叠，围绕核心任务重新组织信息、状态和操作路径。'],
+      ['AI 协作与结果验收', '把 AI 当分析、设计和实现的伙伴；怎么验收、哪些经验能沉淀，由我定的流程说了算。'],
+      ['Agent 工作流与经验沉淀', '上下文怎么管、经验怎么变成可复用的 Memory 和 Skills、项目怎么复盘、怎么让下一个项目用得上。']
     ]
   },
   cases: {
@@ -125,7 +125,7 @@ const portfolioData = {
       body: '我管的不只一个账号的内容制作和运营，还有其他广告项目。事情一多，既要处理眼前的琐事，也要盯着每个子项目继续往前走，于是我想做一个自己用得顺手的任务看板。',
       principle: '传统看板总像一排排格子。受开源项目 Project Graph 关系图的启发，我把项目做成星系、任务做成卫星：全景看项目关系，进入项目看排期，点开任务处理阶段和行动项。',
       conclusion: '临时来了一堆事情，直接说出来，AI 先整理成任务卡片草稿，确认后再放进看板。',
-      url: 'http://127.0.0.1:5176/', image: 'assets/radar-overview.jpg'
+      url: 'https://moonhan220304-afk.github.io/deskradar-portfolio/', image: 'assets/radar-overview.jpg'
     },
     harness: {
       name: 'DeepSeek 模型与 Harness', label: 'DAILY TOOL / OPEN SOURCE', title: '从使用者视角理解可定制性与稳定性的取舍。',
